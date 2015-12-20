@@ -1,3 +1,3 @@
 # NoteBook
 the learning script
-for study
+for study  using every need
