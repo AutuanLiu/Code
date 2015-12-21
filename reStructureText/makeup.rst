@@ -1,17 +1,16 @@
-标题格式
-===================
+标题格式       
+========
      标题
 ==================
 标题（Title）
-来看看标题的实例：
-===================
-这就是一个标题
-===================
- 
-----------------
-这也是一个章节标题
-----------------
-reStructuredText可用于作为标题修饰的字符有很多很多：
+来看看标题的实例：       
+===================      
+这就是一个标题      
+===================      
+----------------         
+这也是一个章节标题       
+----------------         
+reStructuredText可用于作为标题修饰的字符有很多很多：        
 ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~
 只要你想，上面的任意一个都可以用来作为标题的修饰符，当然，reStructuredText也是
 有推荐的，它推荐下面这些字符：
@@ -67,20 +66,20 @@ reStructuredText提供两种表格：网格表格（Grid Tables）， 简单表
 “-” 用来分隔行， “=“ 用来分隔 * 表头 *和* 表体 *行，"|" 用来分隔
 * 列 *，而"+"用来表示行和列相交的* 节点 *如下面的例子：
 
-+------------------------+------------+----------+----------+
-| Header row, column 1   | Header 2   | Header 3 | Header 4 |
-| (header rows optional) |            |          |          |
-+========================+============+==========+==========+
-| body row 1, column 1   | column 2   | column 3 | column 4 |
-+------------------------+------------+----------+----------+
-| body row 2             | Cells may span columns.          |
-+------------------------+------------+---------------------+
-| body row 3             | Cells may  | - Table cells       |
-+------------------------+ span rows. | - contain           |
-| body row 4             |            | - body elements.    |
-+------------------------+------------+---------------------+
++------------------------+------------+----------+----------+    
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |    
+| (header rows optional) |            |          |          |    
++========================+============+==========+==========+    
+| body row 1, column 1   | column 2   | column 3 | column 4 |    
++------------------------+------------+----------+----------+    
+| body row 2             | Cells may span columns.          |    
++------------------------+------------+---------------------+    
+| body row 3             | Cells may  | - Table cells       |    
++------------------------+ span rows. | - contain           |    
+| body row 4             |            | - body elements.    |    
++------------------------+------------+---------------------+    
  
-来自docutils的帮助文档.
+来自docutils的帮助文档.  
  TIPS：表头行是可选的，如果你不需要，就可以不用"="来分割了。
  
 简单表格：这种表格比网格表来说简单许多，一般用于简单的数据展示。其用于修饰的字符也仅两个而已：
@@ -105,18 +104,17 @@ True   True   True
  
 `下面这种简单表内有列表`
  
-=====  =====
-col 1  col 2
-=====  =====
-1      Second column of row 1.
-2      Second column of row 2.
-       Second line of paragraph.
-3      - Second column of row 3.
- 
-       - Second item in bullet
-         list (row 3, column 2).
-\      Row 4; column 1 will be empty.
-=====  =====
+=====  =====   
+col 1  col 2   
+=====  =====   
+1      Second column of row 1.     
+2      Second column of row 2.     
+       Second line of paragraph.   
+3      - Second column of row 3.   
+       - Second item in bullet     
+         list (row 3, column 2).   
+\      Row 4; column 1 will be empty.   
+=====  =====   
 
 
 表头合并
