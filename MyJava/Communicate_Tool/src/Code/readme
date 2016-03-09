@@ -1,6 +1,0 @@
-1, 将三个类下载或复制到eclipse的项目中.
-2, 在Server.java中运行 main方法,启动server.
-3, 在Client.java中运行 main方法,启动client. 可以启动任意多个client.
-4, client启动以后, 需要用户使用一个名字来login. 比如, joey, bill, marry, jack...
-5, 发送消息的格式为: To bill: Hello bill. 
-6, 所有的传输消息都会在server端打印log. 
