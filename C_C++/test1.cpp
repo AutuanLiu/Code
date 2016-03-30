@@ -10,7 +10,6 @@ int isLeap(int year)
 }
 int main()
 {
-	int days = 8113-1;//他出生的那天为第一天，所以这里需要减去一
 	int year = 1777,i;
 	//printf("%d\n",isLeap(1778));
 	for(i=4;i<12;i++)
