@@ -2,6 +2,7 @@
 the learning script
 for study  using every need.
 
+**有些代码不是本人所写，来源于课本等**
 
 #math test
 
