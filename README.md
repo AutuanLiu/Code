@@ -1,5 +1,13 @@
 # NoteBook
 the learning script for study programing language. 
-----------------
-***           
-:octocat:      :octocat:
+
+* R
+* Mathematica
+* JavaScript
+* Matlab
+* C/C++
+* Java
+* Ruby
+* HTML/CSS
+* mysql
+
