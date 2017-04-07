@@ -13,3 +13,31 @@ hist(X2)
 rt<-read.table("exam.txt", head=TRUE); rt
 lm.sol<-lm(Weight~Height, data=rt)
 summary(lm.sol)
+#自定义函数与调用
+f<-function(x,y)
+{
+  c(x+1,exp(y))
+}
+# 调用
+f(2,3)
+# 数据结构
+w<-array(c(1:18),c(3,3,2)) # 数组
+m<-matrix(c(1:12),3,4) # 矩阵
+w[1:2,2:3,1]
+# list
+e<-list(thing="hat",size="8.25")
+# data frame
+# 其结果就是产生一个table
+teams<-c("PHI","NYM","FLA","ATL","WSN")
+w<-c(92,89,94,72,59)
+l<-c(70,73,77,90,102)
+n<-data.frame(teams,w,l)
+# display
+n
+if(1 > 2)
+  "yes" else
+    "no"
+127 %% 4
+typeof(as(1,"integer"))  
+  
+  
