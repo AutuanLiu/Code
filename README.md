@@ -12,9 +12,9 @@ the learning script for study programing language.
 * MySql
 
 An amazing image
-[!sca][1]
 
 
+![sca][1]
 
 
 [1]:https://github.com/AutuanLiu/Code/blob/master/mathematica/sca.png
